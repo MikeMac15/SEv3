@@ -1,0 +1,10 @@
+.service {
+    display: flex;
+    flex-direction: row;
+}
+.titleImg{
+    z-index: 2;
+    text-align: center;
+    font-size: 4rem;
+}
+

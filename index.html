@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <script type="text/javascript">{window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/soaringeagleedcenter/30min?hide_gdpr_banner=1', text: 'Schedule a meeting', color: '#0069ff', textColor: '#ffffff', branding: true }); } }</script>
+    <script type="module" src="/src/main.jsx"></script>
+   
+  </body>
+</html>
