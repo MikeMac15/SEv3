@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
+import { emailJSKey, googleMapsKey } from "../../keys";
 
 const FullEmailerDiv = styled.div`
     display: flex;
@@ -275,7 +276,7 @@ export default function Emailer() {
     const sendEmail = (e) => {
         e.prevenReachefault();
     
-        emailjs.sendForm('service_zp94zsn', 'template_jw6q8gd', form.current, 'zB32I6I3ggkV8vlA2')
+        emailjs.sendForm('service_zp94zsn', 'template_jw6q8gd', form.current, emailJSKey)
           .then((result) => {
             //   console.log(result.text);
               alert('Thank you for sending us a message! We will reach back out to you shortly. Have a nice day!')
@@ -328,7 +329,7 @@ export default function Emailer() {
                     <MapsDiv>
 
                     <Frame  loading="lazy" allowFullScreen
-    src="https://www.google.com/maps/embed/v1/place?q=135%20E%205th%20Ave%2C%20Kettle%20Falls%2C%20WA%2099141&key=AIzaSyDou9ldpksxn6pZft0HctN91V6RVOR2w4U"></Frame>
+    src={`https://www.google.com/maps/embed/v1/place?q=135%20E%205th%20Ave%2C%20Kettle%20Falls%2C%20WA%2099141&key=${googleMapsKey}`}></Frame>
 
                     </MapsDiv>
 
