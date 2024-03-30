@@ -9,6 +9,8 @@ import Footer from "../footer/Footer"
 import Grades from "../grades/Grades"
 import Services from "../grades/newServices"
 import Navbar from "../nav/nav"
+import About from "./about"
+import WhyUs from "./Why"
 
 
 export default function Home(){
@@ -19,10 +21,12 @@ export default function Home(){
             {/* <Snav /> */}
 
                 <One />
+                <WhyUs />
                 <Services />
-                <Pricing />
+                <About />
                 {/* <Grades/> */}
                 <Team />
+                <Pricing />
                 {/* <Connect /> */}
                 <Location/>
                 <Footer/>

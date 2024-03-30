@@ -9,13 +9,14 @@ align-items: center;
 justify-content: center;
 ${'' /* background: antiquewhite; */}
 font-size: 1.25rem;
+
 background-image: url('/newLines.svg');
 background-repeat: no-repeat;
 background-size: cover;
 `
 export const TeamTitle = styled.h2`
 color: black;
-
+text-shadow: 8px 5px 7px rgba(180, 145, 91, 0.35);
 `
 
 export const CardsDiv = styled.div`

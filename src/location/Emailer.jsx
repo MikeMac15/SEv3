@@ -112,6 +112,7 @@ export const ContactTitle = styled.div`
     padding-top: 5rem;
     text-align: center;
     background-color: whitesmoke;
+    text-shadow: 8px 5px 7px rgba(180, 145, 91, 0.35);
     @media (max-width: 450px){
     font-size: 1.5rem;
     }
@@ -121,6 +122,7 @@ export const ContactTitle2 = styled.div`
     padding: 2.5rem 0;
     text-align: center;
     ${'' /* background-color: w; */}
+    text-shadow: 8px 5px 7px rgba(180, 145, 91, 0.35);
     @media (max-width: 450px){
     font-size: 1.5rem;
     }

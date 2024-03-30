@@ -39,6 +39,7 @@ letter-spacing: 2px;
 text-align: center;
 color: black;
 margin: 0;
+text-shadow: 6px 5px 4px rgba(180, 145, 91, 0.3);
 `
 
 
@@ -57,6 +58,7 @@ ${'' /* margin-left: 3rem; */}
 width: 75%;
 text-indent: 3rem;
 font-family: Georgia;
+text-shadow: 6px 5px 4px rgba(180, 145, 91, 0.3);
 `
 const ServiceImage = styled.img`
 height: 500px;
