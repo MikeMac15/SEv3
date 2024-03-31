@@ -2,7 +2,7 @@
   "name": "se",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mikemac15.github.io/react-gh-pages",  
+  "homepage": "https://mikemac15.github.io/main",  
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
