@@ -1,6 +1,6 @@
 import { useState } from "react"
 import styled from "styled-components"
-
+import React from 'react';
 const ServDiv = styled.div`
 padding-top: 5rem;
 height: 40rem;

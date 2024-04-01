@@ -2,7 +2,7 @@ import { useRef, useState } from "react"
 import styled from "styled-components"
 import '../index.css'
 import './service-style.css'
-
+import React from 'react';
 
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";

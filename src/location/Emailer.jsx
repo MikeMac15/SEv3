@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import React from 'react';
 import { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
 import { emailJSKey, googleMapsKey } from "../../keys";

@@ -1,7 +1,7 @@
 import Emailer, { ReachUs, ContactTitle } from "./Emailer";
 import { ContactDiv, FullLocationDiv, LocationDiv } from "./location_style";
 import styled from "styled-components";
-
+import React from 'react';
 const Divider = styled.p`
 
 

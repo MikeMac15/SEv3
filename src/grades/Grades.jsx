@@ -1,5 +1,5 @@
 import { GradeContainer, LeftDiv, RightDiv, GradeDiv, GradeTitle, GradeDivTitle, SubjectInfo, SubjectTitle, SubjectDesc, GradeDivTop, GradeImg, GradeTitleDiv, GradeInfoText } from "./grades_style";
-
+import React from 'react';
 const SubjectDiv = ({title, info}) => {
     // title: string
     // info: list

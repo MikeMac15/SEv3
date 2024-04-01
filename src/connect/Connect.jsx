@@ -1,6 +1,6 @@
 import { FullConnectDiv } from "./connect_style";
 import { InlineWidget } from "react-calendly";
-
+import React from 'react';
 export default function Connect() {
 
     return (<>

@@ -1,5 +1,5 @@
 import { Card, CardsDiv, TeamFullDiv, TeamTitle, TeamImg, TeamInfo, InfoDiv, TeamName } from "./team_style";
-
+import React from 'react';
 export default function Team(){
 
     return (

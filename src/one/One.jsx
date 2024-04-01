@@ -2,7 +2,7 @@
 import '../grades/service-style.css'
 import { BaseDiv} from "./one_style"
 import './One.css'
-
+import React from 'react';
 import Offered from "./components/Offered"
 
 import Intro from "./components/Intro"

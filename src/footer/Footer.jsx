@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import {FooterDiv, Footerh3, Footerh4, Footerh5, F_Links, Fsec1, Fsec2, Fsec3, F2n3, FtermsDiv, SEtitle, FLogo} from './footer_style'

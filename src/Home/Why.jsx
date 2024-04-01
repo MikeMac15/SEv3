@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import React from 'react';
 
 const FullDiv = styled.div`
 display:flex;

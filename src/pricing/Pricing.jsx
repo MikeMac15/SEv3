@@ -1,7 +1,7 @@
 import { FullPricingDiv, Title1, Title2 } from "./pricing_style";
 import './calendly.css'
+import React from 'react';
 export default function Pricing(){
-
     const calendlyPopup = () => {
         Calendly.initPopupWidget({url: 'https://calendly.com/soaringeagleedcenter/30min'});
         return false;

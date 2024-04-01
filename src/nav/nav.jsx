@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 // import './nav.css'
-
+import React from 'react';
 const FullNav = styled.div`
     z-index:100;
     // height: 4rem;
